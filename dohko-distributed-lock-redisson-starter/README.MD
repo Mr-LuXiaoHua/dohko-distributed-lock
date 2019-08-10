@@ -34,7 +34,6 @@ dohko.redisson.connection-pool-size=64
 # redis-集群-cluster模式
 #dohko.redisson.cluster-type=cluster
 #dohko.redisson.cluster-nodes=redis://127.0.0.1:6349,redis://127.0.0.1:6359,redis://127.0.0.1:6369,redis://127.0.0.1:6379,redis://127.0.0.1:6389,redis://127.0.0.1:6399
-#dohko.redisson.address=redis://127.0.0.1:6379,redis://127.0.0.1:6389,redis://127.0.0.1:6399
 #dohko.redisson.connect-timeout=10000
 #dohko.redisson.connection-pool-size=64
 ```
