@@ -7,11 +7,11 @@ dohko-distributed-lock-redisson-starter
 1. 使用maven install到本地仓库
 2. 引入依赖
 ```
-        <dependency>
-            <groupId>com.dohko</groupId>
-            <artifactId>dohko-distributed-lock-redisson-starter</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
+    <dependency>
+        <groupId>com.dohko</groupId>
+        <artifactId>dohko-distributed-lock-redisson-starter</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </dependency>
 ```
 3.springboot项目的application.properties配置redis
 ```
