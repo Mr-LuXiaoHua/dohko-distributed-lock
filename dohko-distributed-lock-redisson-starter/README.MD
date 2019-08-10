@@ -18,6 +18,7 @@ dohko-distributed-lock-redisson-starter
 # 单个redis服务器
 dohko.redisson.cluster-type=single
 dohko.redisson.db=0
+dohko.redisson.password=
 dohko.redisson.address=redis://127.0.0.1:6379
 dohko.redisson.connect-timeout=10000
 dohko.redisson.connection-pool-size=64
@@ -27,12 +28,14 @@ dohko.redisson.connection-pool-size=64
 #dohko.redisson.cluster-type=sentinal
 #dohko.redisson.sentinel-master-name=your-sentinel-name
 #dohko.redisson.db=0
+dohko.redisson.password=
 #dohko.redisson.sentinel-nodes=redis://127.0.0.1:6379,redis://127.0.0.1:6389,redis://127.0.0.1:6399
 #dohko.redisson.connect-timeout=10000
 #dohko.redisson.connection-pool-size=64
 
 # redis-集群-cluster模式
 #dohko.redisson.cluster-type=cluster
+dohko.redisson.password=
 #dohko.redisson.cluster-nodes=redis://127.0.0.1:6349,redis://127.0.0.1:6359,redis://127.0.0.1:6369,redis://127.0.0.1:6379,redis://127.0.0.1:6389,redis://127.0.0.1:6399
 #dohko.redisson.connect-timeout=10000
 #dohko.redisson.connection-pool-size=64
