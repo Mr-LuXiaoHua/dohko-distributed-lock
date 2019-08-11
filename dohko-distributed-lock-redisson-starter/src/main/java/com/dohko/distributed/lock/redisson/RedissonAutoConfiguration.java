@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ConditionalOnClass(RedissonDistributedLockImpl.class)
+@ConditionalOnClass(RedissonDistributedLock.class)
 @EnableConfigurationProperties(RedissonProperties.class)
 @Slf4j
 public class RedissonAutoConfiguration {

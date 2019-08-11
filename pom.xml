@@ -24,6 +24,7 @@
 
     <modules>
         <module>dohko-distributed-lock-redisson-starter</module>
+        <module>dohko-distributed-lock-zookeeper-starter</module>
     </modules>
 
 
