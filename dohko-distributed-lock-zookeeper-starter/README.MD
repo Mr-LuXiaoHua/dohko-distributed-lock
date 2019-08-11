@@ -3,6 +3,8 @@ dohko-distributed-lock-zookeeper-starter
 ---
 将Curator封装成spring-boot-starter,方便在spring-boot项目中使用。
 
+**Curator版本为4.2.0，支持zookeeper版本为3.5.x**
+
 #### 使用方式
 1. 使用maven install到本地仓库
 2. 引入依赖
