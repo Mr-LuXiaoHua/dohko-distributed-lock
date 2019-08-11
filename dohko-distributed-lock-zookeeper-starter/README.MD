@@ -13,6 +13,15 @@ dohko-distributed-lock-zookeeper-starter
         <version>0.0.1-SNAPSHOT</version>
     </dependency>
 ```
+3.项目配置
+```
+    # 多个地址使用,分隔：127.0.0.1:2181,127.0.0.1:3181
+    dohko.zookeeper.addrs=127.0.0.1:2181
+    dohko.zookeeper.curator-connection-timeout-ms=10000
+    dohko.zookeeper.curator-session-timeout-ms=5000
+    dohko.zookeeper.curator-retry-count=5
+```
+
 3.注入ZookeeperDistributedLock
 ```
     @Autowired
